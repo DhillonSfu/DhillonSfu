@@ -1,10 +1,175 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhillon's Portfolio</title>
+  <!-- AOS Animate on Scroll CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
-    <h1>hello</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#useful-links">Useful Links</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" style="padding: 100px 20px; text-align: center; background-color: #f0f4f8;">
+      <h1>Hi, I'm Parmvir Dhillon!</h1>
+      <p class="tagline">Aspiring Software Developer | CS Student at Simon Fraser University</p>
+      <a href="#projects" class="btn-primary">View My Work</a>
+
+      <div style="margin-top: 40px;">
+        <img src="images/coding-setup.jpg" 
+             alt="Desk with a person wearing a mask working on a computer in dim lighting" 
+             style="max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+      </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+      <h2>Projects</h2>
+      <div class="project-card" data-aos="fade-up">
+        <img src="images/foodstash.png" alt="Screenshot from FoodStash logistics project presentation" />
+        <div class="project-content">
+          <h3>Logistics Optimization for FoodStash Foundation</h3>
+          <p>
+            As part of our Operations Research course, my team worked with FoodStash Vancouver to improve their food rescue logistics. 
+            We developed transportation and warehouse optimization models using AnyLogic.
+          </p>
+          <p><strong>Tools:</strong> AnyLogic, Excel Solver, GIS Mapping</p>
+          <a href="https://docs.google.com/presentation/d/1N_wGA2TzJdoaO5Guh5tpsfmFAGQw8hnxtu23C1qrVY8/mobilepresent?slide=id.g2c88f96aad4_3_42" 
+             target="_blank" class="btn-link" rel="noopener noreferrer">
+             📄 View Final Presentation
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+  <h2>About Me</h2>
+  <div class="about-card">
+    <img src="images/parmvirphoto.jpg" alt="Portrait of Parmvir Dhillon" />
+    <div>
+      <p>
+        Hi! I'm a Computer Science student at Simon Fraser University, passionate about solving real-world problems through code.
+        My interests lie in software development, machine learning, and building accessible, user-friendly websites.
+      </p>
+      <p>
+        I enjoy working with C++, Python, HTML, CSS, JavaScript, and have experience with tools like React and Git.
+        I'm a fast learner and love experimenting with new technologies and ideas.
+      </p>
+      <p>
+        Outside of tech, I enjoy playing soccer, traveling, and exploring new cuisines.
+        I'm currently looking for opportunities to grow as a developer and contribute to impactful projects.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills">
+  <h2>Skills & Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      <p>HTML5</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      <p>CSS3</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-js"></i>
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-react"></i>
+      <p>React</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-git-alt"></i>
+      <p>Git & GitHub</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-figma"></i>
+      <p>Figma</p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" style="padding: 100px 20px;">
+      <h2>Contact Me</h2>
+      <p>I'm always open to networking and project collaborations. Feel free to reach out!</p>
+      <div class="contact-icons">
+        <a href="https://github.com/DhillonSfu" target="_blank" aria-label="GitHub Profile" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:psd16@sfu.ca?subject=Portfolio Contact&body=Hi Dhillon, I saw your website and wanted to reach out!" aria-label="Send Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <p>
+        <a href="resume.html" target="_blank" class="resume-link" rel="noopener noreferrer">
+          <i class="fas fa-file-alt"></i> View My Resume
+        </a>
+      </p>
+    </section>
+
+    <section id="useful-links" style="padding: 100px 20px;">
+      <h2>Useful Links</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/DhillonSfu" target="_blank" rel="noopener noreferrer">GitHub Profile</a><br />
+          My personal GitHub where I host all my coding projects and contributions.
+        </li>
+        <li>
+          <a href="mailto:psd16@sfu.ca">Email Me</a><br />
+          Reach out directly for questions or collaboration opportunities.
+        </li>
+        <li>
+          <a href="https://scrimba.com/learn/frontend" target="_blank" rel="noopener noreferrer">Frontend Developer Course on Scrimba</a><br />
+          A great interactive course I used to learn and improve my frontend development skills.
+        </li>
+        <li>
+          <a href="https://www.sfu.ca/computing.html" target="_blank" rel="noopener noreferrer">Simon Fraser University - Computer Science</a><br />
+          The university and program where I am pursuing my computer science degree.
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a><br />
+          My go-to reference for all web development standards, best practices, and documentation.
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript on MDN</a><br />
+          The official Mozilla Developer Network documentation for JavaScript, an essential language I use.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Parmvir Dhillon | Portfolio Website</p>
+  </footer>
+
+  <!-- AOS Animate on Scroll JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
 </body>
 </html>
