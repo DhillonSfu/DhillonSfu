@@ -69,8 +69,12 @@ In addition to the screenshots, you can also a link to your wireframe file (if y
 For this task, please include your answers for the questions described in [mini-project instructions](Mini-project.md): ...
 
 ### Q1
+## 🔗 Links
 
-[Insert answer here]
+- [Live Website](https://dhillonsfu.github.io/DhillonSfu/)
+- [GitHub Repository](https://github.com/DhillonSfu/DhillonSfu.git)
+
+
 
 ### Q2
 
